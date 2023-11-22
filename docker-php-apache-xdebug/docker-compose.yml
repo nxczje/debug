@@ -1,0 +1,10 @@
+version: "3"
+
+services: 
+  php-apache2-xdebug:
+    build: .
+    container_name: php-apache2
+    ports:
+      - 8002:80
+    volumes: 
+      - $PWD/htdocs:/var/www/html
