@@ -6,3 +6,4 @@ debug java, php, nodejs on docker
 ![](image/Screenshot%202023-11-23%20103005.png)
 
 ### JAVA
+Sử dụng compile

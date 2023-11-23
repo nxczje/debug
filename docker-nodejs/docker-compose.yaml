@@ -1,0 +1,12 @@
+version: '3.6'
+services:
+  nodejs:
+    container_name: debug_node
+    image: aimvector/nodejs:latest
+    build: 
+      context: .
+    volumes:
+      - ./src:/node/src/
+    ports:
+      - 8003:80
+      - 9229:9229

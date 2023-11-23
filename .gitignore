@@ -1,1 +1,3 @@
 .vscode/
+docker-java/logs/
+docker-java/src/debug-java-web/target/
